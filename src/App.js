@@ -6,7 +6,8 @@ import {Form,FormGroup,FormControl, ControlLabel, Button} from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <Form inline className="Hola"   name="Form-1" netlify>
+      <Form inline className="Hola"  >
+    <input type="hidden" name="form-name" value="contact" />
   <FormGroup controlId="formInlineName">
     <ControlLabel>Name</ControlLabel>{' '}
     <FormControl type="text" placeholder="German Sanchez" />
