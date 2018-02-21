@@ -7,8 +7,10 @@ class App extends Component {
   render() {
     return (
 
-<div>
-<form method="post">
+<div id="div">
+
+  <h1>SOY UNA FORMA DE PRUEBA </h1>
+<form method="post" className="Hola">
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Your Name: <input type="text" name="name"/></label>

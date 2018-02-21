@@ -35,8 +35,20 @@ body {
   background: #222;
 }
 
+
+#div h1{
+  text-align: center;
+  
+}
 .Hola {
 
-  margin-left:38%;
-  margin-top: 15%;
+  margin-left:40%;
+  margin-top: 5%;
+}
+.Hola input{
+  color:black;
+
+}
+.Hola button{
+  color:black;
 }
