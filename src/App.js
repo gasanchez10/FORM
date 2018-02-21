@@ -6,7 +6,7 @@ import {Form,FormGroup,FormControl, ControlLabel, Button} from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <Form inline className="Hola">
+      <Form inline className="Hola"   name="Form-1" netlify>
   <FormGroup controlId="formInlineName">
     <ControlLabel>Name</ControlLabel>{' '}
     <FormControl type="text" placeholder="German Sanchez" />
@@ -22,3 +22,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+
