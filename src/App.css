@@ -8,6 +8,9 @@
   height: 80px;
 }
 
+
+#button{color:black;}
+
 .App-header {
   background-color: #222;
   height: 150px;
@@ -34,6 +37,6 @@ body {
 
 .Hola {
 
-  margin-left:30%;
-  margin-top: 20%;
+  margin-left:38%;
+  margin-top: 15%;
 }

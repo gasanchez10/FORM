@@ -6,18 +6,25 @@ import {Form,FormGroup,FormControl, ControlLabel, Button} from 'react-bootstrap'
 class App extends Component {
   render() {
     return (
-      <Form inline className="Hola"  >
-    <input type="hidden" name="form-name" value="contact" />
-  <FormGroup controlId="formInlineName">
-    <ControlLabel>Name</ControlLabel>{' '}
-    <FormControl type="text" placeholder="German Sanchez" />
-  </FormGroup>{' '}
-  <FormGroup controlId="formInlineEmail">
-    <ControlLabel>Email</ControlLabel>{' '}
-    <FormControl type="email" placeholder="pasante@bvc.com" />
-  </FormGroup>{' '}
-  <Button type="submit">Send invitation</Button>
-</Form>
+
+<div>
+      <form  className="Hola">
+      <input type="hidden" name="form-name" value="contact" />
+      <p>
+        <label>Your Name: <input type="text" name="name"/></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email"/></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit" id="button">Send</button>
+      </p>
+    </form>
+
+    </div>
     );
   }
 }
